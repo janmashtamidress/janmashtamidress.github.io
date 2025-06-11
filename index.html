@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Janmashtami Fancy Dress</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: Arial, sans-serif;
       background: #f9f3e6;
@@ -32,14 +37,6 @@
       margin-bottom: 30px;
     }
 
-    .description {
-      text-align:center;
-      padding: 20px;
-      background-color: #fff7dc;
-      color: #5d3a00;
-      font-size: 18px;
-    }
-
     .container {
       max-width: 1200px;
       margin: auto;
@@ -58,41 +55,32 @@
       gap: 20px;
     }
 
+    
+    
     .product {
+    
       background: white;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
       overflow: hidden;
       transition: transform 0.3s ease;
+      
     }
 
     .product:hover {
       transform: translateY(-5px);
     }
 
-    .product-slider {
-      position: relative;
+    .product img {
       width: 100%;
-      height: 200px;
-      overflow: hidden;
-    }
-
-    .product-slider .slide-img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: opacity 0.5s ease;
-      opacity: 0;
-    }
-
-    .product-slider .slide-img.active {
-      opacity: 1;
+      height: 300px;
+     
     }
 
     .product-details {
       padding: 15px;
       text-align: center;
+       
     }
 
     .product-details h3 {
@@ -121,6 +109,23 @@
       background: #e64a19;
     }
 
+    .blog-section {
+      margin-top: 50px;
+    }
+
+    .blog-post {
+    margin-top: 40px;
+      background: #fff;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+    }
+
+    .blog-post h4 {
+      margin-bottom: 5px;
+      color: #ff9800;
+    }
+
     footer {
       background: #ffd700;
       text-align: center;
@@ -136,47 +141,30 @@
     <h1>Janmashtami Fancy Dress</h1>
   </header>
 
-  <div class="description">
-    <p>
-      Celebrate <strong>Janmashtami</strong> in style with our beautiful collection of <strong>Krishna & Radha fancy dress costumes</strong> for kids.
-      Choose from 20 stunning designs perfect for school events, temple functions, and home celebrations.
-    </p>
-  </div>
+<div style="text-align:center; padding: 20px; background-color: #fff7dc; color: #5d3a00; font-size: 18px;">
+  <p>
+    Celebrate <strong>Janmashtami</strong> in style with our beautiful collection of <strong>Krishna & Radha fancy dress costumes</strong> for kids.
+    Choose from 20 stunning designs perfect for school events, temple functions, and home celebrations.
+  </p>
+</div>
 
   <div class="banner"></div>
 
   <div class="container">
     <h2>Top Krishna & Radha Dress Collection</h2>
     <div class="products">
-
-      <!-- Repeat this product 20 times -->
-      <!-- Start Product Loop -->
-      <!-- All using same image as per your request -->
-
-      <!-- Products 1 to 20 -->
-      <!-- You can replace second image with a back view if needed -->
-      <!-- Begin product -->
-      <!-- Copy this block and change number -->
-      <!-- Example below: -->
-
-      <!-- Loop for 20 products -->
-      <!-- You can use JS or manually copy 20 blocks -->
-
-      <!-- Example product block (repeat for 20) -->
-      <!-- Change title and price as needed -->
-      <!-- Start of 20 products -->
-      <!-- All use the same image for now -->
-
+      <!-- 20 Static Products -->
+      <!-- Use a loop to copy/paste or generate similar HTML -->
+      <!-- Sample shown below -->
       <!-- START -->
-      <!-- REPEAT THIS 20 TIMES -->
-      <!-- I'm putting 5 here, repeat similarly up to 20 -->
+      <!-- Repeat this 20 times with different dress numbers -->
+      <!-- You can also use real image URLs instead of placeholders -->
+      <!-- PRODUCT 1 TO 20 -->
+      <!-- You can just duplicate this block below -->
+      <!-- I'll write 5 here, you can duplicate for 20 -->
 
-      <!-- Product 1 -->
       <div class="product">
-        <div class="product-slider">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
-        </div>
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 1">
         <div class="product-details">
           <h3>Fancy Dress 1</h3>
           <p>₹100</p>
@@ -184,88 +172,133 @@
         </div>
       </div>
 
-      <!-- Copy above block and update numbers for each -->
-      <!-- Product 2 to 20 -->
-
-      <!-- Just for demo, I'll put 4 more -->
-      <!-- You should repeat same block 15 more times -->
-
       <div class="product">
-        <div class="product-slider">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
-        </div>
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 2">
         <div class="product-details">
           <h3>Fancy Dress 2</h3>
-          <p>₹150</p>
-          <button class="btn">Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="product">
-        <div class="product-slider">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
-        </div>
-        <div class="product-details">
-          <h3>Fancy Dress 3</h3>
           <p>₹200</p>
           <button class="btn">Add to Cart</button>
         </div>
       </div>
 
       <div class="product">
-        <div class="product-slider">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
-        </div>
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 3">
         <div class="product-details">
-          <h3>Fancy Dress 4</h3>
-          <p>₹250</p>
-          <button class="btn">Add to Cart</button>
-        </div>
-      </div>
-
-      <div class="product">
-        <div class="product-slider">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
-          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
-        </div>
-        <div class="product-details">
-          <h3>Fancy Dress 5</h3>
+          <h3>Fancy Dress 3</h3>
           <p>₹300</p>
           <button class="btn">Add to Cart</button>
         </div>
       </div>
 
-      <!-- Repeat above block till Product 20 -->
+      <div class="product">
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 4">
+        <div class="product-details">
+          <h3>Fancy Dress 4</h3>
+          <p>₹400</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
 
-      <!-- END -->
+      <div class="product">
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 5">
+        <div class="product-details">
+          <h3>Fancy Dress 5</h3>
+          <p>₹500</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+      
+      <div class="product">
+        <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" alt="Dress 5">
+        <div class="product-details">
+          <h3>Fancy Dress 6</h3>
+          <p>₹500</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
 
+      <!-- Repeat till Dress 20 -->
     </div>
+
+     
+
+  <div class="blog-post">
+    <h2 style="text-align:center; color:#5d3a00; margin-bottom:20px;">Everything You Need to Know About Janmashtami Fancy Dress for Kids</h2>
+    <p>
+      Janmashtami, the birth celebration of Lord Krishna, is one of the most colorful and joyous festivals celebrated across India. As part of this celebration, many schools, temples, and housing societies organize fancy dress competitions, especially for children. Dressing up your child as little Krishna or Radha brings joy not only to the kids but also to families who cherish the tradition. In this guide, we’ll take you through everything you need to know about Janmashtami fancy dress — from costume selection to accessories and preparation tips.
+    </p>
+
+    <h3>Why Fancy Dress on Janmashtami Is Special</h3>
+    <p>
+      The idea behind dressing children as Krishna or Radha is to celebrate the innocence and charm of Lord Krishna's childhood. With the peacock feather, flute (bansuri), dhoti, and yellow attire, Krishna's look is iconic and easily recognizable. For Radha, a traditional lehenga-choli with a dupatta, floral jewelry, and soft makeup completes the divine look. These outfits symbolize devotion and cultural connection and allow kids to feel involved in the spiritual festivities.
+    </p>
+
+    <h3>How to Choose the Right Costume</h3>
+    <p>
+      When selecting a costume, comfort should be your top priority. Look for lightweight and breathable fabrics like cotton, especially if your child will wear it for a long duration. The costume should fit well without being too tight or too loose. Also, consider the event's nature — for stage performances, opt for more decorative costumes with embroidery and sparkle. For school functions, simpler yet elegant options work best.
+    </p>
+
+    <h3>Essential Krishna Dress Items</h3>
+    <ul>
+      <li><strong>Dhoti & Kurta Set</strong>: Usually in yellow or white color, often silk or cotton.</li>
+      <li><strong>Peacock Feather (Mor Pankh)</strong>: Placed in the headgear or crown.</li>
+      <li><strong>Flute (Bansuri)</strong>: Symbolic of Krishna’s musical charm.</li>
+      <li><strong>Mukut (Crown)</strong>: Golden or decorated crown worn on the head.</li>
+      <li><strong>Ornaments</strong>: Necklaces, bangles, earrings, and armlets to match Krishna’s traditional look.</li>
+    </ul>
+
+    <h3>Essential Radha Dress Items</h3>
+    <ul>
+      <li><strong>Lehenga Choli</strong>: Preferably in red, green, or blue, often with floral designs.</li>
+      <li><strong>Dupatta or Chunari</strong>: For covering the head in traditional style.</li>
+      <li><strong>Floral Jewelry</strong>: Includes floral bracelets, necklaces, and hair accessories.</li>
+      <li><strong>Payal & Bindi</strong>: Traditional anklets and forehead decoration to complete the look.</li>
+    </ul>
+
+    <h3>Accessories to Consider</h3>
+    <p>
+      Accessories play a big role in making the costume look authentic. For Krishna, the waist belt (kamarbandh), cow print stick, and earrings add charm. For Radha, floral garlands, nose ring, and makeup enhance the grace. You can buy readymade kits online or from local markets, especially during the festive season. Many eCommerce websites offer full Krishna and Radha dress kits with all essentials included.
+    </p>
+
+    <h3>Makeup and Hairstyle Tips</h3>
+    <p>
+      For Krishna, minimal makeup works best — a little kajal around the eyes, a small tilak on the forehead, and a gentle smile is enough. For Radha, you can go for soft eyeshadow, lipstick, bindi, and lightly braided or curled hair. Flower crowns or clips with jasmine (gajra) add a beautiful traditional vibe.
+    </p>
+
+    <h3>Where to Buy Janmashtami Fancy Dress</h3>
+    <p>
+      You can buy Janmashtami fancy dress items from online platforms like Amazon, Flipkart, FirstCry, and Snapdeal. Many local costume stores and festival stalls also offer rental options. If you're looking for handmade or personalized costumes, you can also explore Instagram sellers or WhatsApp groups catering to festive wear.
+    </p>
+
+    <h3>DIY Janmashtami Dress Ideas</h3>
+    <p>
+      If you’re on a budget or want to get creative, you can make a DIY Krishna costume at home using items like a yellow T-shirt and dupatta styled as a dhoti. Add a printed crown cutout and a toy flute for accessories. Similarly, a simple lehenga and dupatta can be styled for Radha. Use real flowers and home jewelry to add an authentic touch.
+    </p>
+
+    <h3>Safety and Comfort Tips</h3>
+    <ul>
+      <li>Always check for sharp pins, hard sequins, or uncomfortable fitting.</li>
+      <li>Ensure shoes or sandals are comfortable for walking/dancing.</li>
+      <li>Carry an extra outfit in case the child needs a quick change.</li>
+      <li>Hydrate the child, especially in warm weather or crowded events.</li>
+    </ul>
+
+    <h3>Photo & Video Ideas</h3>
+    <p>
+      Capture your child’s special look with themed photography. Add decorative pots (matkis), flute props, or background cutouts. You can also record a small dance performance or shloka recital to share on social media and create beautiful memories.
+    </p>
+
+    <h3>Conclusion</h3>
+    <p>
+      Janmashtami fancy dress is more than just a costume — it’s a way to pass on traditions, encourage creativity, and celebrate devotion in the most adorable way. Whether your child is participating in a school competition or a temple event, dressing up as Krishna or Radha will fill the day with joy, culture, and pride. Explore our wide collection of 20+ beautiful fancy dress options and make this Janmashtami celebration truly memorable!
+    </p>
   </div>
+</div>
+
 
   <footer>
     <p>&copy; 2025 JanmashtamiFancyDress.com - All rights reserved</p>
   </footer>
-
-  <script>
-    // JS for slider image hover
-    document.querySelectorAll('.product-slider').forEach(slider => {
-      let images = slider.querySelectorAll('.slide-img');
-      let current = 0;
-      slider.addEventListener('mouseenter', () => {
-        images[current].classList.remove('active');
-        current = (current + 1) % images.length;
-        images[current].classList.add('active');
-      });
-      slider.addEventListener('mouseleave', () => {
-        images[current].classList.remove('active');
-        current = 0;
-        images[current].classList.add('active');
-      });
-    });
-  </script>
 
 </body>
 </html>
