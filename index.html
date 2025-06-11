@@ -1,9 +1,271 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Janmashtami Fancy Dress</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f3e6;
+      color: #333;
+    }
+
+    header {
+      background-color: #ffd700;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      color: #5d3a00;
+      font-size: 32px;
+    }
+
+    .banner {
+      width: 100%;
+      height: 250px;
+      background: url('https://fancydressnoida.com/wp-content/uploads/2025/01/Republic-day-banner.webp') no-repeat center center;
+      background-size: cover;
+      margin-bottom: 30px;
+    }
+
+    .description {
+      text-align:center;
+      padding: 20px;
+      background-color: #fff7dc;
+      color: #5d3a00;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #5d3a00;
+      margin-bottom: 20px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-5px);
+    }
+
+    .product-slider {
+      position: relative;
+      width: 100%;
+      height: 200px;
+      overflow: hidden;
+    }
+
+    .product-slider .slide-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: opacity 0.5s ease;
+      opacity: 0;
+    }
+
+    .product-slider .slide-img.active {
+      opacity: 1;
+    }
+
+    .product-details {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .product-details h3 {
+      font-size: 18px;
+      color: #8b4513;
+    }
+
+    .product-details p {
+      margin: 10px 0;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .btn {
+      background: #ff5722;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #e64a19;
+    }
+
+    footer {
+      background: #ffd700;
+      text-align: center;
+      padding: 15px;
+      margin-top: 50px;
+      color: #5d3a00;
+    }
+  </style>
+</head>
 <body>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+  <header>
+    <h1>Janmashtami Fancy Dress</h1>
+  </header>
+
+  <div class="description">
+    <p>
+      Celebrate <strong>Janmashtami</strong> in style with our beautiful collection of <strong>Krishna & Radha fancy dress costumes</strong> for kids.
+      Choose from 20 stunning designs perfect for school events, temple functions, and home celebrations.
+    </p>
+  </div>
+
+  <div class="banner"></div>
+
+  <div class="container">
+    <h2>Top Krishna & Radha Dress Collection</h2>
+    <div class="products">
+
+      <!-- Repeat this product 20 times -->
+      <!-- Start Product Loop -->
+      <!-- All using same image as per your request -->
+
+      <!-- Products 1 to 20 -->
+      <!-- You can replace second image with a back view if needed -->
+      <!-- Begin product -->
+      <!-- Copy this block and change number -->
+      <!-- Example below: -->
+
+      <!-- Loop for 20 products -->
+      <!-- You can use JS or manually copy 20 blocks -->
+
+      <!-- Example product block (repeat for 20) -->
+      <!-- Change title and price as needed -->
+      <!-- Start of 20 products -->
+      <!-- All use the same image for now -->
+
+      <!-- START -->
+      <!-- REPEAT THIS 20 TIMES -->
+      <!-- I'm putting 5 here, repeat similarly up to 20 -->
+
+      <!-- Product 1 -->
+      <div class="product">
+        <div class="product-slider">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
+        </div>
+        <div class="product-details">
+          <h3>Fancy Dress 1</h3>
+          <p>₹100</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Copy above block and update numbers for each -->
+      <!-- Product 2 to 20 -->
+
+      <!-- Just for demo, I'll put 4 more -->
+      <!-- You should repeat same block 15 more times -->
+
+      <div class="product">
+        <div class="product-slider">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
+        </div>
+        <div class="product-details">
+          <h3>Fancy Dress 2</h3>
+          <p>₹150</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-slider">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
+        </div>
+        <div class="product-details">
+          <h3>Fancy Dress 3</h3>
+          <p>₹200</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-slider">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
+        </div>
+        <div class="product-details">
+          <h3>Fancy Dress 4</h3>
+          <p>₹250</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <div class="product-slider">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img active" alt="Front">
+          <img src="https://fancydressnoida.com/wp-content/uploads/2024/10/Western-Dance-Frock-Costume-Purple.jpg" class="slide-img" alt="Back">
+        </div>
+        <div class="product-details">
+          <h3>Fancy Dress 5</h3>
+          <p>₹300</p>
+          <button class="btn">Add to Cart</button>
+        </div>
+      </div>
+
+      <!-- Repeat above block till Product 20 -->
+
+      <!-- END -->
+
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 JanmashtamiFancyDress.com - All rights reserved</p>
+  </footer>
+
+  <script>
+    // JS for slider image hover
+    document.querySelectorAll('.product-slider').forEach(slider => {
+      let images = slider.querySelectorAll('.slide-img');
+      let current = 0;
+      slider.addEventListener('mouseenter', () => {
+        images[current].classList.remove('active');
+        current = (current + 1) % images.length;
+        images[current].classList.add('active');
+      });
+      slider.addEventListener('mouseleave', () => {
+        images[current].classList.remove('active');
+        current = 0;
+        images[current].classList.add('active');
+      });
+    });
+  </script>
 
 </body>
 </html>
